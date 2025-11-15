@@ -9,6 +9,7 @@ import {
   joinSession,
 } from "../controllers/sessionController.js";
 
+
 const router = express.Router();
 
 router.post("/", protectRoute, createSession);
